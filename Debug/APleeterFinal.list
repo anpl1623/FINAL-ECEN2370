@@ -2749,6 +2749,7 @@ void ConnectFour_DrawFinalScreen(ConnectFourGame *game) {
  800147a:	f1c3 03f0 	rsb	r3, r3, #240	@ 0xf0
  800147e:	085b      	lsrs	r3, r3, #1
  8001480:	84fb      	strh	r3, [r7, #38]	@ 0x26
+    
     for (int i = 0; i < strlen(timeMsg); i++) {
  8001482:	2300      	movs	r3, #0
  8001484:	63bb      	str	r3, [r7, #56]	@ 0x38
@@ -2782,6 +2783,7 @@ void ConnectFour_DrawFinalScreen(ConnectFourGame *game) {
  80014bc:	429a      	cmp	r2, r3
  80014be:	d8e3      	bhi.n	8001488 <ConnectFour_DrawFinalScreen+0x134>
     }
+
     for (int i = 0; i < strlen(timeStr); i++) {
  80014c0:	2300      	movs	r3, #0
  80014c2:	637b      	str	r3, [r7, #52]	@ 0x34

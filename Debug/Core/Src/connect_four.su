@@ -8,5 +8,5 @@
 ../Core/Src/connect_four.c:217:6:ConnectFour_IsBoardFull	24	static
 ../Core/Src/connect_four.c:226:6:ConnectFour_ComputerMove	32	static
 ../Core/Src/connect_four.c:255:6:ConnectFour_DrawFinalScreen	88	static
-../Core/Src/connect_four.c:296:6:ConnectFour_StartNewGame	16	static
-../Core/Src/connect_four.c:309:6:ConnectFour_ProcessTouch	24	static
+../Core/Src/connect_four.c:298:6:ConnectFour_StartNewGame	16	static
+../Core/Src/connect_four.c:311:6:ConnectFour_ProcessTouch	24	static
