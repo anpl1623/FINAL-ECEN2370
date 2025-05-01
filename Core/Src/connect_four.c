@@ -278,7 +278,21 @@ void ConnectFour_DrawFinalScreen(ConnectFourGame *game) {
     for (int i = 0; i < strlen(winnerMsg); i++) {
         LCD_DisplayChar(winnerX + i * 16, y, winnerMsg[i]);
     }
+
+    y+= 40;
+
+    char *timeMsg = "Duration: ";
+    char timeStr[16];
+    sprintf(timeStr, "%ld s", game->gameDuration/1000);
+    uint16_t timeX = (LCD_PIXEL_WIDTH - strlen(timeMsg) * 12) / 2;
     
+    for (int i = 0; i < strlen(timeMsg); i++) {
+        LCD_DisplayChar(timeX + i * 12, y, timeMsg[i]);
+    }
+
+    for (int i = 0; i < strlen(timeStr); i++) {
+        LCD_DisplayChar(timeX + strlen(timeMsg) * 12 + i * 12, y, timeStr[i]);
+    }
 }
 
 void ConnectFour_StartNewGame(ConnectFourGame *game, GameState newState) {
