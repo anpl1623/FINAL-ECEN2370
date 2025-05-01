@@ -1,0 +1,12 @@
+../Core/Src/connect_four.c:18:6:ConnectFour_Init	16	static
+../Core/Src/connect_four.c:34:6:ConnectFour_DrawMenu	72	static
+../Core/Src/connect_four.c:68:6:ConnectFour_DrawBoard	40	static
+../Core/Src/connect_four.c:103:6:ConnectFour_DrawCoin	24	static
+../Core/Src/connect_four.c:108:6:ConnectFour_UpdateSelectedColumn	24	static
+../Core/Src/connect_four.c:118:6:ConnectFour_DropCoin	32	static
+../Core/Src/connect_four.c:169:6:ConnectFour_CheckWin	48	static
+../Core/Src/connect_four.c:217:6:ConnectFour_IsBoardFull	24	static
+../Core/Src/connect_four.c:226:6:ConnectFour_ComputerMove	32	static
+../Core/Src/connect_four.c:255:6:ConnectFour_DrawFinalScreen	48	static
+../Core/Src/connect_four.c:284:6:ConnectFour_StartNewGame	16	static
+../Core/Src/connect_four.c:297:6:ConnectFour_ProcessTouch	24	static
